@@ -1,0 +1,15 @@
+name: iPodPlugin
+version: '1.0'
+main: me.lampa.iPodPlugin.Main
+api-version: '1.21'
+load: STARTUP
+authors: [ Lampa ]
+description: A mod that makes an iPod functionality possible in the game!
+website: https://discord.gg/MGJaf6N2RT
+commands:
+  ipod:
+    description: Opens the iPod GUI.
+    usage: /ipod
+  getipod:
+    description: Gives the player an iPod item.
+    usage: /getipod
